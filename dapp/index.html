@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Blockchain Project</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.umd.min.js" integrity="sha512-PtOcu3WZTldHT+VjAJdWV5ss+iGebEgc1h5olJuxUNPvKuC0VOZsk1UhNgQYi5oIyrNHhdIOw8WQMdZwBv1MyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="project.js"></script>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+        <div>
+          <h1>ESCROW PROJECT</h1>
+            <p>
+                <input type="text" id="SellerAddress" placeholder="Seller Address" />
+                <input type="text" id="Product" placeholder="Product"/>
+                <input type="text" id="Price" placeholder="Price"/>
+                <button id="initBtn">Init Escrow</button>
+            </p>
+          <table id="table">
+            <tr>
+              <th>Buyer</th>
+              <th>Seller</th>
+              <th>Price</th>
+              <th>State</th>
+              <th>Actions</th>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <h3>Dor Swisa - 316055144</h3>
+          <h3>Tamir Abutbul - 311425912</h3>
+          <h3>Ami Bitan - 209261007</h3>
+        </div>
+</body>
+</html>
