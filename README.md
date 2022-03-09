@@ -45,6 +45,6 @@ in cmd:
 
 4. Run migrate to compile the code and migrate the contact to network
 
-   <code>'migrate'</code>
+   <code>migrate</code>
 
 5. open project.html
