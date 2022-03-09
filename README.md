@@ -1,15 +1,6 @@
 # ESCROW SMART CONTRACT
 ***
 
-<details>
-<summary>Authors:</summary>
-&emsp;&emsp;Dor Swisa - 316055144   
-<br>
-&emsp;&emsp;Tamir Abutbul - 311425912
-<br>
-&emsp;&emsp;Ami Bitan - 209261007
-</details>
-
 ## Intro:
 Escrow smart contract for ethereum using solidity
 
